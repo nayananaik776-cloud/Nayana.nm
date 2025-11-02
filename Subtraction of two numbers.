@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    int sub;
+    printf("enter two integers:");
+    scanf("%d%d",&a,&b);
+    sub=a-b;
+    printf("subtraction of two numbers:%d",sub);
+    return 0;
+}
+
+OUTPUT
+enter two integers:8 3
+subtraction of two numbers:5
+
+=== Code Execution Successful ===
