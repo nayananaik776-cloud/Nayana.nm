@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    int div;
+    printf("enter two integers:");
+    scanf("%d%d",&a,&b);
+    div=a/b;
+    printf("division of two numbers:%d",div);
+     return 0;
+}
+
+OUTPUT
+enter two integers:6 2
+division of two numbers:3
+
+=== Code Execution Successful ===
+
+
