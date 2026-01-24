@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+char s1[50],s2[50];
+int result;
+printf("Enter the first string:");
+scanf("%s",s1);
+printf("Enter the second string:");
+scanf("%s",s2);
+result=strcmp(s1,s2);
+
+printf("Result:%d\n",result);
+if(result==0){
+        printf("Strings are equal\n");
+}
+else if(result>0){
+    printf("\"%s\" is greater\n",s1);
+    }
+    else{
+            printf("\"%s\" is lesser\n",s1);
+    }
+    return 0;
+}
